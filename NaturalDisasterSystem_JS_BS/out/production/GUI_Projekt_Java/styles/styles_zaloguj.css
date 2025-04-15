@@ -1,0 +1,47 @@
+root {
+    -fx-padding: 20; /* Odstęp wewnętrzny */
+    -fx-alignment: center; /* Wyśrodkowanie zawartości */
+    -fx-background-color: black; /* Czarny kolor tła */
+}
+
+.root {
+    -fx-padding: 20; /* Odstęp wewnętrzny */
+    -fx-alignment: center; /* Wyśrodkowanie zawartości */
+    -fx-background-color: black; /* Czarny kolor tła */
+}
+
+.button {
+    -fx-background-color: gold;
+    -fx-text-fill: black; /* Biały tekst */
+    -fx-font-size: 16px; /* Rozmiar czcionki */
+    -fx-font-weight: bold; /* Pogrubiony tekst */
+    -fx-padding: 10 20; /* Odstępy wewnętrzne */
+    -fx-border-radius: 5px; /* Zaokrąglone rogi obramowania */
+    -fx-background-radius: 5px; /* Zaokrąglone rogi tła */
+    -fx-cursor: hand; /* Wskaźnik ręki przy najechaniu */
+    -fx-margin: 10px; /* Odstęp zewnętrzny */
+}
+
+.label.logowanie {
+    -fx-text-fill: white; /* Biały kolor tekstu */
+    -fx-font-size: 40px; /* Duży rozmiar tekstu */
+    -fx-font-weight: bold; /* Pogrubiony tekst */
+    -fx-alignment: center; /* Wyśrodkowanie */
+    -fx-padding: 20; /* Odstępy wewnętrzne */
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-alignment: center_right;
+    -fx-padding: 10;
+}
+
+.button:hover {
+    -fx-background-color: white; /* Ciemniejszy niebieski przy najechaniu */
+}
+
+.button:pressed {
+    -fx-background-color: white; /* Najciemniejszy niebieski po kliknięciu */
+}
+

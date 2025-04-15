@@ -1,0 +1,82 @@
+/* Styl dla lewej części */
+.left-pane {
+    -fx-background-color: black; /* Czarne tło */
+}
+
+/* Styl dla prawej części */
+.right-pane {
+    -fx-background-color: black; /* Czarne tło */
+}
+
+/* Styl dla etykiet */
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold; /* Pogrubienie tekstu */
+    -fx-text-fill: white; /* Biały kolor tekstu */
+}
+
+/* Styl dla etykiet w prostokątach */
+.rect-label {
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-text-alignment: left;
+    -fx-alignment: top-left;
+    -fx-font-weight: bold; /* Pogrubienie tekstu */
+    -fx-text-fill: white; /* Biały kolor tekstu */
+}
+
+/* Styl dla przycisków */
+.button {
+    -fx-background-color: gold; /* Złoty kolor */
+    -fx-text-fill: black;
+    -fx-padding: 5px 10px; /* Mniejsze przyciski */
+    -fx-font-size: 12px; /* Mniejszy tekst */
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #ffd700; /* Jaśniejszy złoty kolor przy najechaniu */
+}
+
+.button:pressed {
+    -fx-background-color: #e6ac00; /* Ciemniejszy złoty kolor przy kliknięciu */
+}
+
+/* Styl dla StackPane z prostokątem i przyciskiem */
+.stack-pane {
+    -fx-padding: 10px;
+    -fx-alignment: bottom-right;
+}
+
+/* Styl dla VBox wewnątrz StackPane */
+.vbox {
+    -fx-alignment: top-left;
+    -fx-spacing: 10px;
+    -fx-padding: 10px;
+}
+
+
+/* Styl dla przycisków na dole prawego okienka */
+.hbox {
+    -fx-alignment: bottom-right;
+    -fx-spacing: 10px;
+    -fx-padding: 10px;
+    -fx-background-color: black; /* Czarne tło */
+}
+
+/* Styl dla checkboxów */
+.check-box {
+    -fx-text-fill: white; /* Biały kolor tekstu */
+}
+
+/* Styl dla VBox w lewej części */
+.left-content {
+    -fx-spacing: 20px; /* Większe odstępy między elementami */
+}
+
+
+.scroll-pane {
+    -fx-background: black; /* Czarne tło dla ScrollPane */
+}
+
